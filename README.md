@@ -28,21 +28,38 @@ To run this project, ensure you have the following installed:
 ## Usage
 1. Clone the repository:
 
-git clone [YOUR_GITHUB_LINK]
+git clone [https://github.com/toshit111/]
 cd VisionVoice
 
-2. Run the main script:
-
-python vision_voice.py
-
+2. Run the main script
+   ```bash
+   python vision_voice.py
+   
 3. Follow the voice prompts to interact with the system. You can:
 
-Ask for the current time.
-Request a song to play on YouTube.
-Retrieve information about a person or topic.
-Control the mouse using eye movements (activate by saying "mouse control").
+a.Ask for the current time.
+b. Request a song to play on YouTube.
+c. Retrieve information about a person or topic.
+d. Control the mouse using eye movements (activate by saying "mouse control").
 
 You can install the required libraries using pip:
 
-```bash
-pip install opencv-python mediapipe pyautogui SpeechRecognition pyttsx3 pywhatkit wikipedia pyjokes
+    ```bash
+     pip install opencv-python mediapipe pyautogui SpeechRecognition pyttsx3 pywhatkit wikipedia pyjokes
+
+## Commands
+1. Play: "Play [song name]"
+2. Time: "What time is it?"
+3. Who is: "Who the heck is [name]?"
+4. Mouse Control: "Mouse control" (activates eye tracking for mouse movement)
+
+## Exit
+To exit the eye control mode, press 'q' in the displayed window.
+
+## Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality of VisionVoice.
+
+## Acknowledgments
+1. OpenAI for their powerful API and resources.
+2. The contributors of the libraries used in this project.
+
